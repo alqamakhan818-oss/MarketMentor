@@ -1,6 +1,8 @@
 import cors from "cors";
 import express from "express";
 
+import { connectDatabase } from "./config/db.js";
+
 import checklistProgressRoutes from "./routes/checklistProgressRoutes.js";
 import learningProgressRoutes from "./routes/learningProgressRoutes.js";
 import marketingPlanRoutes from "./routes/marketingPlanRoutes.js";
@@ -18,7 +20,17 @@ app.use(
     origin: allowedOrigins.length > 0 ? allowedOrigins : true,
   }),
 );
+
 app.use(express.json({ limit: "200kb" }));
+
+app.use(async (_req, _res, next) => {
+  try {
+    await connectDatabase();
+    next();
+  } catch (error) {
+    next(error);
+  }
+});
 
 app.get("/api/health", (_req, res) => {
   res.json({
@@ -41,6 +53,7 @@ app.use((_req, res) => {
 
 app.use((error, _req, res, _next) => {
   console.error(error);
+
   res.status(500).json({
     success: false,
     message: "Something went wrong on the server.",
