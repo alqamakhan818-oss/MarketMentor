@@ -98,62 +98,6 @@ export const quizQuestions = [
       "Useful demonstrations, tips, photos and real stories help customers understand what you offer.",
   },
   {
-    id: "paid-ads",
-    topic: "Paid Advertising",
-    question: "What should a business remember before paying for online ads?",
-    options: [
-      { id: "a", label: "Ads always guarantee sales" },
-      { id: "b", label: "Start with an affordable test budget and review results" },
-      { id: "c", label: "Spend the full budget immediately" },
-      { id: "d", label: "The target audience does not matter" },
-    ],
-    correctAnswer: "b",
-    explanation:
-      "Paid ads can increase reach but do not guarantee sales, so begin carefully and learn from the results.",
-  },
-  {
-    id: "local-seo",
-    topic: "Local SEO",
-    question: "Which phrase is most useful for local SEO?",
-    options: [
-      { id: "a", label: "Best shop anywhere" },
-      { id: "b", label: "Mobile repair shop in Bhiwandi" },
-      { id: "c", label: "Click here now" },
-      { id: "d", label: "Welcome to the internet" },
-    ],
-    correctAnswer: "b",
-    explanation:
-      "Local SEO uses clear service and location words that match what nearby customers search for.",
-  },
-  {
-    id: "whatsapp-catalogue",
-    topic: "WhatsApp Business",
-    question: "What is the purpose of a WhatsApp Business catalogue?",
-    options: [
-      { id: "a", label: "To show products or services with useful details" },
-      { id: "b", label: "To store private passwords" },
-      { id: "c", label: "To block every customer" },
-      { id: "d", label: "To replace product quality" },
-    ],
-    correctAnswer: "a",
-    explanation:
-      "A catalogue lets customers view products or services and basic details inside WhatsApp.",
-  },
-  {
-    id: "posting-routine",
-    topic: "Social Media",
-    question: "Which posting habit is usually better for a small business?",
-    options: [
-      { id: "a", label: "Useful posts on a regular schedule" },
-      { id: "b", label: "Twenty posts today and none for months" },
-      { id: "c", label: "Only posts copied without checking" },
-      { id: "d", label: "Never replying to questions" },
-    ],
-    correctAnswer: "a",
-    explanation:
-      "A simple, regular routine is easier to maintain and helps customers see consistent information.",
-  },
-  {
     id: "target-audience",
     topic: "Paid Advertising",
     question: "What is a target audience?",

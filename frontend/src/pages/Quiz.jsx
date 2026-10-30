@@ -284,7 +284,7 @@ export default function DigitalMarketingQuizPage() {
           <div className="max-w-2xl">
             <div className="mb-5 inline-flex items-center gap-2 rounded-full bg-[#F2ECFF] px-3.5 py-2 text-sm font-semibold text-[#7B4FC6]">
               <BrainCircuit aria-hidden="true" className="size-4" />
-              12 Beginner-Friendly Questions
+              {quizQuestions.length} Beginner-Friendly Questions
             </div>
             <h1 className="text-4xl font-semibold leading-tight tracking-[-0.05em] sm:text-6xl">
               Test Your Digital Marketing Knowledge
