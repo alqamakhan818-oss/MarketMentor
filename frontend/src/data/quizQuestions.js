@@ -1,33 +1,5 @@
 export const quizQuestions = [
   {
-    id: "seo-purpose",
-    topic: "SEO",
-    question: "What does SEO help a business improve?",
-    options: [
-      { id: "a", label: "Printing posters" },
-      { id: "b", label: "Visibility in search engines" },
-      { id: "c", label: "Making phone calls" },
-      { id: "d", label: "Creating invoices" },
-    ],
-    correctAnswer: "b",
-    explanation:
-      "SEO helps search engines understand your content so more relevant people can find it.",
-  },
-  {
-    id: "review-benefit",
-    topic: "Online Reviews",
-    question: "Why are genuine Google reviews important?",
-    options: [
-      { id: "a", label: "They help build customer trust" },
-      { id: "b", label: "They reduce internet speed" },
-      { id: "c", label: "They replace every advertisement" },
-      { id: "d", label: "They automatically create a website" },
-    ],
-    correctAnswer: "a",
-    explanation:
-      "Real customer reviews help new customers understand other people's experience with the business.",
-  },
-  {
     id: "digital-marketing",
     topic: "Digital Marketing",
     question: "Which activity is an example of digital marketing?",
@@ -84,31 +56,17 @@ export const quizQuestions = [
       "Send relevant updates only to customers who want them. Unwanted repeated messages are spam.",
   },
   {
-    id: "content-marketing",
-    topic: "Content Marketing",
-    question: "Which post is a good example of content marketing?",
+    id: "review-benefit",
+    topic: "Online Reviews",
+    question: "Why are genuine Google reviews important?",
     options: [
-      { id: "a", label: "A helpful video showing how to use a product" },
-      { id: "b", label: "A blank image with no message" },
-      { id: "c", label: "A false customer story" },
-      { id: "d", label: "A post containing only random symbols" },
+      { id: "a", label: "They help build customer trust" },
+      { id: "b", label: "They reduce internet speed" },
+      { id: "c", label: "They replace every advertisement" },
+      { id: "d", label: "They automatically create a website" },
     ],
     correctAnswer: "a",
     explanation:
-      "Useful demonstrations, tips, photos and real stories help customers understand what you offer.",
-  },
-  {
-    id: "target-audience",
-    topic: "Paid Advertising",
-    question: "What is a target audience?",
-    options: [
-      { id: "a", label: "The group of people most likely to need your offer" },
-      { id: "b", label: "Only the people working in your business" },
-      { id: "c", label: "Every person on the internet" },
-      { id: "d", label: "A list of unrelated websites" },
-    ],
-    correctAnswer: "a",
-    explanation:
-      "A target audience is the group your message is meant for, based on factors such as location, needs or interests.",
+      "Real customer reviews help new customers understand other people's experience with the business.",
   },
 ];
